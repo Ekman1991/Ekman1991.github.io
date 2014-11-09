@@ -760,7 +760,7 @@ header .navbar-default ul.navbar-nav li a:hover {
   transition: all 0.25s ease-in-out;
 }
 header .navbar-default.scrolled {
-  border-bottom: 3px solid #F51F8F;
+  border-bottom: 3px solid #ffffff;
 }
 header .navbar-default.scrolled ul.navbar-nav li a {
   color: #F51F8F;
@@ -928,19 +928,19 @@ section#support .media:hover h3 {
 footer {
   background: #F51F8F;
   /* Old browsers */
-  background: -moz-linear-gradient(-45deg, #F51F8F 0%, #6b396c 100%);
+  background: -moz-linear-gradient(-45deg, #F51F8F 0%, #F51F8F 100%);
   /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #F51F8F), color-stop(100%, #6b396c));
+  background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #F51F8F), color-stop(100%, #F51F8F));
   /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(-45deg, #F51F8F 0%, #6b396c 100%);
+  background: -webkit-linear-gradient(-45deg, #F51F8F 0%, #F51F8F 100%);
   /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(-45deg, #F51F8F 0%, #6b396c 100%);
+  background: -o-linear-gradient(-45deg, #F51F8F 0%, #F51F8F 100%);
   /* Opera 11.10+ */
-  background: -ms-linear-gradient(-45deg, #F51F8F 0%, #6b396c 100%);
+  background: -ms-linear-gradient(-45deg, #F51F8F 0%, #F51F8F 100%);
   /* IE10+ */
-  background: linear-gradient(-45deg, #F51F8F 0%, #6b396c 100%);
+  background: linear-gradient(-45deg, #F51F8F 0%, #F51F8F 100%);
   /* W3C */
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#F51F8F, endColorstr=#6b396c, GradientType=1);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#F51F8F, endColorstr=#F51F8F, GradientType=1);
   /* IE6-9 fallback on horizontal gradient */
 }
 footer .social a {
@@ -1027,10 +1027,10 @@ form .form-control:focus {
     display: none;
   }
   header .navbar-default ul.navbar-nav li a:hover {
-    color: #F51F8F;
+    color: black;
   }
   header .navbar-default .navbar-collapse {
-    background: #F51F8F;
+    background: #753e76;
   }
   header .navbar-default.scrolled {
     background: #F51F8F;
