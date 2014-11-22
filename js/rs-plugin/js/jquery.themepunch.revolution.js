@@ -40,7 +40,7 @@
 					navigationArrows:"solo",			// nextto, solo, none
 
 					hideThumbsOnMobile:"off",
-					hideBulletsOnMobile:"off",
+					hideBulletsOnMobile:"on",
 					hideArrowsOnMobile:"off",
 					hideThumbsUnderResoluition:0,
 
