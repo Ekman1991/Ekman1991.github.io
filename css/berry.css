@@ -691,7 +691,7 @@ header {
   /* Old browsers */
   background: -moz-linear-gradient(0, #000000 0%, #F51F8F 100%);
   /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #F51F8F), color-stop(100%, #F51F8F));
+  background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #000000), color-stop(100%, #F51F8F));
   /* Chrome,Safari4+ */
   background: -webkit-linear-gradient(0, #000000 0%, #F51F8F 100%);
   /* Chrome10+,Safari5.1+ */
