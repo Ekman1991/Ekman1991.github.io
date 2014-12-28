@@ -416,36 +416,35 @@ Det finns flera olika typer av fallskydd; fallskydd i trappor, vid valvkanter, s
         </footer>
 
     </div>
-    <script src="js/jquery-1.11.1.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/slick.min.js"></script>
-    <script src="js/placeholdem.min.js"></script>
-    <script src="js/rs-plugin/js/jquery.themepunch.plugins.min.js"></script>
-    <script src="js/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
-    <script src="js/waypoints.min.js"></script>
-    <script src="js/scripts.js"></script>
+    <script>
+      loadJs("js/jquery-1.11.1.min.js");
+      loadJs("js/bootstrap.min.js");
+      loadJs("js/slick.min.js");
+      loadJs("js/placeholdem.min.js");
+      loadJs("js/rs-plugin/js/jquery.themepunch.plugins.min.js");
+      loadJs("js/rs-plugin/js/jquery.themepunch.revolution.min.js");
+      loadJs("js/waypoints.min.js");
+      loadJs("js/scripts.js");
+    </script>
     <script>
         $(document).ready(function() {
-            if(isMobile)
-              appMaster.preLoader();
+          appMaster.preLoader();
         });
     </script>
     <script type="text/javascript">
         $(document).ready(function(){
-          if(isMobile) {
-            var $window = $(window);
+          var $window = $(window);
 
-            $('section[data-type="background"]').each(function(){
-              var $bgobj = $(this);
-              $(window).scroll(function() {
+          $('section[data-type="background"]').each(function(){
+            var $bgobj = $(this);
+            $(window).scroll(function() {
 
-                var yPos = -($window.scrollTop() / $bgobj.data('speed'));
-                var coords = '50% '+ yPos + 'px';
+              var yPos = -($window.scrollTop() / $bgobj.data('speed'));
+              var coords = '50% '+ yPos + 'px';
 
-                $bgobj.css({ backgroundPosition: coords });
-              });
+              $bgobj.css({ backgroundPosition: coords });
             });
-          }
+          });
         });
     </script>
 </body>
