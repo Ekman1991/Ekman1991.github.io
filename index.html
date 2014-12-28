@@ -426,23 +426,26 @@ Det finns flera olika typer av fallskydd; fallskydd i trappor, vid valvkanter, s
     <script src="js/scripts.js"></script>
     <script>
         $(document).ready(function() {
-            appMaster.preLoader();
+            if(isMobile)
+              appMaster.preLoader();
         });
     </script>
     <script type="text/javascript">
         $(document).ready(function(){
-        var $window = $(window);
+          if(isMobile) {
+            var $window = $(window);
 
-        $('section[data-type="background"]').each(function(){
-        var $bgobj = $(this);
-        $(window).scroll(function() {
-        var yPos = -($window.scrollTop() / $bgobj.data('speed'));
+            $('section[data-type="background"]').each(function(){
+              var $bgobj = $(this);
+              $(window).scroll(function() {
 
-        var coords = '50% '+ yPos + 'px';
+                var yPos = -($window.scrollTop() / $bgobj.data('speed'));
+                var coords = '50% '+ yPos + 'px';
 
-        $bgobj.css({ backgroundPosition: coords });
-        });
-        });
+                $bgobj.css({ backgroundPosition: coords });
+              });
+            });
+          }
         });
     </script>
 </body>
